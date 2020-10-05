@@ -1,11 +1,56 @@
+<!-- - Uma barra superior(header), com uma imagem no lado esquerdo um menu à direita com os seguintes itens: Produto, Funcionalidades, Preços e Contato (os itens do menu não precisam ter ação);
+- Uma sessão com uma imagem de fundo e um texto sendo o Slogan (mensagem de impacto) do seu projeto integrador;
+- Uma sessão footer com uma lista com os contatos (e-mail e números de 2 telefones), ícones de 3 redes sociais e copyright.  -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meu Sistema</title>
+    <title>PetCard</title>
 </head>
 <body>
+    <header class="container">
+        <link rel="stylesheet" href="style.css">
+        <!-- <img id="logo" src="src/images/logoText-dark.svg"> -->
+        <nav>
+            <ul>
+                <li><img id="logo" src="src/images/logoText-dark.svg"></li>
+                <li class="item"><a href="#">Produto</a></li>
+                <li class="item"><a href="#">Funcionalidades</a></li>
+                <li class="item"><a href="#">Preço</a></li>
+                <li class="item"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="slogan container">
+            <h1 class="slogan">
+                A carteira de vacinação online do seu pet!
+            </h1>
+            <p>
+                O PetCard é um aplicativo desenvolvido para que você nunca mais esqueça de vacinar seu pet! Cadastre seus pets, adicione informações de vacinas e remédios individualmente e seja notificado sobre vacinas que precisam de reforço. Simples assim.
+            </p>
+        </section>
+        <figure>
+            <img src="src/images/mockup.png" alt="">
+        </figure>
+    </main>
+    <footer>
+        <div class="infos">
+            +55 (45) 999 155 581 <br>
+            +55 (45) 991 085 839 <br>
+            petcard@petcard.com.br <br>
+        </div>
+        <div class="social">
+            <a href="#"><img src="src/images/Facebook.svg" alt=""></a>    
+            <a href="#"><img src="src/images/Instagram.svg" alt=""></a>    
+            <a href="#"><img src="src/images/Twitter.svg" alt=""></a>
+        </div> 
+        <div class="copyright">
+            © 2020 by Aline Zsigmond
+        </div>
+    </footer>
 </body>
 </html>
