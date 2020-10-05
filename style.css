@@ -92,7 +92,7 @@ footer {
     font-size: 14px;
     background-color: #3C6382;
     color: #FFF;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .social {
@@ -104,6 +104,7 @@ footer {
 }
 
 .copyright {
+    font-size: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
